@@ -283,6 +283,7 @@ font-weight: var(--font-medium);
   grid-template-columns: max-content;
   row-gap: 1rem;
 }
+
 .home__social-icon{
   font-size: 1.25rem;
   color: var(--first-color);
@@ -291,6 +292,7 @@ font-weight: var(--font-medium);
 .home__social-icon:hover{
   color: var(--first-color-alt);
 }
+
 .home__blob{
   width: 200px;
   fill:var(--first-color);
@@ -399,6 +401,10 @@ font-weight: var(--font-medium);
   
 }
 
+.about__data{
+  padding:5% 5%;
+}
+
 .about__info{
   display: flex;
   justify-content: space-evenly;
@@ -496,23 +502,40 @@ font-weight: var(--font-medium);
 .skills__html{
   width: 90%;
 }
-.skills__css{
-  width: 80%;
+.skills__sass{
+  width: 90%;
 }
+
+.skills__css{
+  width: 90%;
+}
+
 .skills__js{
-  width: 60%;
+  width: 90%;
 }
 
 .skills__react{
-  width: 60%;
+  width: 80%;
+}
+
+.skills__bootstrap5{
+  width: 90%;
+}
+
+.skills__vite{
+  width: 90%;
 }
 
 
-.skills__php{
+.skills__jquery{
   width: 80%;
 }
 .skills__node{
-  width: 60%;
+  width: 90%;
+}
+
+.skills__csharp{
+  width: 80%;
 }
 .skills__firebase{
   width: 50%;
@@ -521,15 +544,46 @@ font-weight: var(--font-medium);
   width: 70%;
 }
 
+.skills__ts{
+  width: 80%;
+}
+
+.skills__express{
+  width: 90%;
+}
+
+.skills__go{
+  width: 70%;
+}
+.skills__dotnet{
+  width: 70%;
+}
+.skills__git{
+  width: 90%;
+}
 
 .skills__java{
   width: 50%;
 }
-.skills__kotlin{
-  width: 40%;
+
+.skills__mongosedb{
+  width: 80%;
 }
-.skills__androidstudio{
-  width: 40%;
+
+.skills__mysql{
+  width: 80%;
+}
+
+.skills__azuredb{
+  width: 80%;
+}
+
+.skills__azureCloud{
+  width: 80%;
+}
+
+.skills__mongoseAtlas{
+  width: 80%;
 }
 
 
@@ -566,6 +620,11 @@ font-weight: var(--font-medium);
 .qualification__icon{
   font-size: 1.8rem;
   margin-right: var(--mb-0-25);
+}
+
+
+.align-right {
+  text-align: right;
 }
 
 .qualification__data{
